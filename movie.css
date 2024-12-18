@@ -1,0 +1,22 @@
+body {
+  height: 700px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mv {
+  /* background-color: aqua; */
+  font-size: x-large;
+  height: 300px;
+  width: 300px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+h3 {
+  color: white;
+}
