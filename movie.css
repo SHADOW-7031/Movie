@@ -1,16 +1,71 @@
 body {
-  height: 700px;
+  height: 800px;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.imdb {
+  width: 100px;
+  /* height: 100px; */
+}
+.rowdiv {
+  width: 700px;
+  /* background-color: azure; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.rowdiv2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.rowdiv3 {
+  /* background-color: blueviolet; */
+  /* width: 300px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.signup {
+  background-color: lightcoral;
+  color: white;
+  /* font-size: large; */
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+.login {
+  background-color: bisque;
+  color: black;
+  text-align: right;
+  padding-right: 25px;
+  width: 180px;
+  height: 30px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 0;
+}
+.login:hover {
+  background-color: rgb(215, 101, 101);
+  color: white;
+  cursor: pointer;
+}
+/* #all {
+  width: 50px;
+} */
 .mv {
   /* background-color: aqua; */
-  font-size: x-large;
-  height: 300px;
-  width: 300px;
+  font-size: xxx-large;
+  height: 200px;
+  width: 200px;
   color: gray;
   display: flex;
   justify-content: center;
